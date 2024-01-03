@@ -9,7 +9,7 @@
 * listenerはcountupからInt16型のメッセージを受信して出力する．
 
 ## 実行例
-例1では端末1をtalker側，端末2をlistener側とし, 先にtalkerを実行する．
+例では端末1をtalker側，端末2をlistener側とし, 先にtalkerを実行する．
 * 端末1 (入力)
 ```
 $ ros2 run mypkg talker
@@ -38,7 +38,7 @@ $ rou2 run mypkg listener
 ```
 
 # launchファイル
-* launchファイル内のtalk_listen.launch.pyを実行することで複数のノードを同時に立ち上げることができる．
+* launchファイル内のtalk_listen.launch.pyを実行することで複数のノードを同時に立ち上げることが可能である.
 ## 実行例
 
 ```
