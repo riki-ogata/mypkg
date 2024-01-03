@@ -1,4 +1,8 @@
 #!/bin/bash
+#SPDX-FileCopyrightText: 2023  Hinata Sakuma
+#SPDX-License-Identifier: BSD-3-Clause
+
+
 
 dir=~
 [ "$1" != "" ] && dir="$1"   #引数があったら、そちらをホームに変える。
