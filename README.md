@@ -43,16 +43,21 @@ $ rou2 run mypkg listener
 
 ```
 $ ros2 launch mypkg talk_listen.launch.py
-[INFO] [launch]: All log files can be found below /home/sakumahinata/.ros/log/2023-12-27-03-10-54-671057-DESKTOP-6Q66L93-631
+[INFO] [launch]: All log files can be found below /home/f17026/.ros/log/2024-01-03-14-40-05-838451-DESKTOP-UQLQL6C-5816
 [INFO] [launch]: Default logging verbosity is set to INFO
-[INFO] [talker-1]: process started with pid [633]
-[INFO] [listener-2]: process started with pid [635]
-[listener-2] [INFO] [1703614255.578763603] [listener]: Listen: 0
-[listener-2] [INFO] [1703614256.069406272] [listener]: Listen: 1
-[listener-2] [INFO] [1703614256.570036498] [listener]: Listen: 2
-[listener-2] [INFO] [1703614257.069966051] [listener]: Listen: 3
-[listener-2] [INFO] [1703614257.569943873] [listener]: Listen: 4
-[listener-2] [INFO] [1703614258.068709380] [listener]: Listen: 5
+[INFO] [talker-1]: process started with pid [5818]
+[INFO] [listener-2]: process started with pid [5820]
+[listener-2] [INFO] [1704260406.829968713] [listener]: Listen: 0
+[listener-2] [INFO] [1704260407.313930342] [listener]: Listen: 1
+[listener-2] [INFO] [1704260407.814054563] [listener]: Listen: 2
+[listener-2] [INFO] [1704260408.314757447] [listener]: Listen: 3
+[listener-2] [INFO] [1704260408.814661697] [listener]: Listen: 4
+[listener-2] [INFO] [1704260409.314510602] [listener]: Listen: 5
+[listener-2] [INFO] [1704260409.814520259] [listener]: Listen: 6
+[listener-2] [INFO] [1704260410.314647376] [listener]: Listen: 7
+[listener-2] [INFO] [1704260410.814620113] [listener]: Listen: 8
+[listener-2] [INFO] [1704260411.314651170] [listener]: Listen: 9
+[listener-2] [INFO] [1704260411.814841776] [listener]: Listen: 10
 (以下略)
 ```
 
