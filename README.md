@@ -23,17 +23,17 @@ $ rou2 run mypkg listener
 
 * 端末2 (出力)
 ```
-[INFO] [1703611792.008532177] [listener]: Listen: 0
-[INFO] [1703611792.498053502] [listener]: Listen: 1
-[INFO] [1703611792.998608227] [listener]: Listen: 2
-[INFO] [1703611793.499302467] [listener]: Listen: 3
-[INFO] [1703611793.998724231] [listener]: Listen: 4
-[INFO] [1703611794.497946359] [listener]: Listen: 5
-[INFO] [1703611794.997757105] [listener]: Listen: 6
-[INFO] [1703611795.497934088] [listener]: Listen: 7
-[INFO] [1703611795.997992620] [listener]: Listen: 8
-[INFO] [1703611796.498351098] [listener]: Listen: 9
-[INFO] [1703611796.997554596] [listener]: Listen: 10
+[INFO] [1704260191.602810331] [listener]: Listen: 0
+[INFO] [1704260192.085857482] [listener]: Listen: 1
+[INFO] [1704260192.585727688] [listener]: Listen: 2
+[INFO] [1704260193.085719964] [listener]: Listen: 3
+[INFO] [1704260193.586003592] [listener]: Listen: 4
+[INFO] [1704260194.085678061] [listener]: Listen: 5
+[INFO] [1704260194.585566690] [listener]: Listen: 6
+[INFO] [1704260195.085947373] [listener]: Listen: 7
+[INFO] [1704260195.585690720] [listener]: Listen: 8
+[INFO] [1704260196.085720965] [listener]: Listen: 9
+[INFO] [1704260196.585565102] [listener]: Listen: 10
 (以下略)
 ```
 
