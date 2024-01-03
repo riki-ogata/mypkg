@@ -67,7 +67,7 @@ $ ros2 launch mypkg talk_listen.launch.py
   * ROS2 humble
 
 ## テスト環境
-* Ubuntu22.04
+* Ubuntu22.04(container:ryuichiueda/ubuntu22.04-ros2:latest)
 
 ## 著作権・ライセンス
 * このソフトウェアパッケージは，[3条項BSDライセンス](https://opensource.org/license/bsd-3-clause/)の下，再頒布および使用が許可されます．
