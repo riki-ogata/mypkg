@@ -1,4 +1,5 @@
 # mypkg
+![test](https://github.com/riki-ogata/mypkg2/actions/workflows/test.yml/badge.svg)
 このリポジトリは, ROS2のパッケージである.
 talkerが数字をカウントアップし，それをトピックを通してInt16型のメッセージを送信し，listenerが受け取って表示させる
 ## 各ノードとトピック 
