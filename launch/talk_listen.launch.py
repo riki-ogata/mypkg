@@ -1,4 +1,4 @@
-#SPDX-FileCopyrightText: 2023  Ogata Riki
+#SPDX-FileCopyrightText: 2023  Riki Ogata
 #SPDX-License-Identifier: BSD-3-Clause
 
 import launch
