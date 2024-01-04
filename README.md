@@ -2,14 +2,14 @@
 ![test](https://github.com/riki-ogata/mypkg/actions/workflows/test.yml/badge.svg)
 
 * このリポジトリは, ROS2のパッケージである.
-* talkerが数字をカウントアップし，それをトピックを通してInt16型のメッセージを送信し，listenerが受け取って表示させる
+* talkerが数字をカウントアップし，それをトピックを通してInt16型のメッセージを送信し，listenerが受け取って表示させる.
 ## 各ノードとトピック 
 * ノードを機能させるためにはターミナルが2つ必要．
 * talkerはcountupというトピックを通して Int16型のメッセージを送信する．
 * listenerはcountupからInt16型のメッセージを受信して出力する．
 
 ## 実行例
-例では端末1をtalker側，端末2をlistener側とし, 先にtalkerを実行する．
+例では端末1をtalker側，端末2をlistener側として実行する.
 * 端末1 (入力)
 ```
 $ ros2 run mypkg talker
@@ -38,7 +38,7 @@ $ rou2 run mypkg listener
 ```
 
 # launchファイル
-* launchファイル内のtalk_listen.launch.pyを実行することで複数のノードを同時に立ち上げることが可能である.
+* launchファイル内のtalk_listen.launch.pyを実行することで複数のノードを同時に立ち上げることが可能である. このlaunchはtalkerとlistnerの2つのノードを同時に立ち上げており, 送信したメッセージをすべて観測することが可能である.
 ## 実行例
 
 ```
@@ -62,9 +62,7 @@ $ ros2 launch mypkg talk_listen.launch.py
 ```
 
 ## 必要なソフトウェア
-* python
-* Ubuntu20.04
-  * ROS2 humble
+* ROS2 humble
 
 ## テスト環境
 * Ubuntu22.04(container:ryuichiueda/ubuntu22.04-ros2:latest)
